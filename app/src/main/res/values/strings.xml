@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">FluffyFriends</string>
+   <!-- main -->
+    <string name="fondo_inicial">Fondo de la pantalla inicial</string>
+    <string name="tv_motivacion">Mimos y cuidados para cada patita</string>
+    <string name="btn_comenzar">Comenzar</string>
+    <string name="logo_desc">Logo</string>
+    <string name="logo_fluffy">Logo Fluffy</string>
+
+    <!-- opciones cuenta -->
+    <string name="fondo_secundario">Fondo de la segunda pantalla</string>
+    <string name="btn_registrarse">Crear Cuenta</string>
+    <string name="btn_acceder_opc">Iniciar Sesión</string>
+    <string name="btn_google">Continuar con Google</string>
+
+    <!-- registrar cuenta -->
+    <string name="titulo_registro">Crear Cuenta</string>
+    <string name="subtitulo_registro">Completa tus datos para comenzar</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_email_register">Correo electrónico</string>
+    <string name="hint_password_register">Contraseña</string>
+    <string name="tv_iniciar_sesion">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="btn_crear_cuenta">Registrarme</string>
+    <string name="fondo_registro">Fondo registro</string>
+
+    <!-- iniciar sesión -->
+    <string name="fondo_login">Fondo de pantalla de login</string>
+    <string name="titulo_login">Iniciar sesión</string>
+    <string name="hint_email_login">Correo electrónico</string>
+    <string name="hint_password_login">Contraseña</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="link_ir_a_registro">¿No tienes cuenta? Regístrate</string>
+
+    <!-- homepage -->
+    <string name="fondo_homepage">Fondo de la pantalla home</string>
+    <string name="saludo_usuario">Hola, %1$s 👋</string>
+    <string name="subtitulo_perfil">Bienvenid@ a FluffyFriends</string>
+    <string name="registrar_mascota">Registrar nueva mascota</string>
+    <string name="mascotas">Mis mascotas</string>
+    <string name="services">Servicios</string>
+    <string name="reservas">Reservas</string>
+    <string name="edit_perfil">Editar</string>
+    <string name="info">Soporte y ayuda</string>
+    <string name="mi_cuenta_home">Mi cuenta</string>
+
+    <!-- registro mascotas -->
+    <string name="fondo_reg_mascota">Fondo de la pantalla de registro de mascotas</string>
+    <string name="reg_mascotas">Registra tus mascotas</string>
+    <string name="editfoto_mascota">Editar</string>
+    <string name="nombre_mascota">Nombre</string>
+    <string name="raza_mascota">Raza</string>
+    <string name="sexo_mascota">Sexo</string>
+    <string name="color_mascota">Color</string>
+    <string name="descipcion_mascota">Despcripción corta</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="btnregistro_mascota">Registrar mascota</string>
+    <string name="datos_mascota">Completa los datos de tu mascota</string>
+    <string name="tipo_registro_mascota">Tipo de mascota</string>
+
+    <string-array name="tipos_mascota">
+        <item>Selecciona tipo de mascota</item>
+        <item>Perro</item>
+        <item>Gato</item>
+    </string-array>
+
+    <string-array name="sexos_mascota">
+        <item>Selecciona sexo</item>
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+
+    <!-- mis mascotas -->
+    <string name="img_fondo_mm">Fondo de la pantalla de mis mascotas</string>
+    <string name="saludo_usuario_mm">Hola, %1$s 👋</string>
+    <string name="subtitulo_perfil2">Estas son tus mascotas</string>
+    <string name="contador_mascotas">Tiene 0 mascotas registradas</string>
+    <string name="mis_mascotas">Mis Mascotas:</string>
+    <string name="tipo_mascota">Tipo mascota</string>
+    <string name="ver_ficha_mascotas">Ver ficha</string>
+    <string name="edit_mascota">Editar</string>
+    <string name="cont_mascota">Mascotas: 0</string>
+    <string name="btn_aniadir">Añadir</string>
+
+        <!-- tarjetas mascotas -->
+    <string name="nombre_m1">Nombre:</string>
+    <string name="raza_m1">Raza:</string>
+    <string name="sexo_m1">Sexo:</string>
+    <string name="editmascota">Editar mascota</string>
+    <string name="deletemascota">Eliminar mascota</string>
+    <string name="nombre_m2">Nombre:</string>
+    <string name="raza_m2">Raza:</string>
+    <string name="sexo_m2">Sexo:</string>
+    <string name="nombre_m3">Nombre:</string>
+    <string name="raza_m3">Raza:</string>
+    <string name="sexo_m3">Sexo:</string>
+
+    <!-- servicios -->
+    <string name="titulo_servicios">Servicios Fluffy Friends</string>
+    <string name="subtitulo_servicios">Elige un servicio para tu mascota</string>
+    <string name="txtcomunidad">Únete a la comunidad de amantes de mascotas</string>
+    <string name="subtitlecomunidad">Los amigos de tus mascotas</string>
+    <string name="btnunirse">Unirse</string>
+    <string name="select_mascota">Selecciona tu mascota para gestionar sus servicios</string>
+    <string name="secc_perro">Perro</string>
+    <string name="secc_gato">Gato</string>
+    <string name="servicio_peluqueria">Peluquería</string>
+    <string name="corte_banio">Corte + baño</string>
+    <string name="servicio_guarderia">Guardería</string>
+    <string name="total_guarderia_serv">Precio: 25 €</string>
+    <string name="servicio_paseos">Paseos</string>
+    <string name="estado_activo_serv">Estado: ACTIVO</string>
+    <string name="fecha_serv">Fecha: 12/06/2026 10:30</string>
+    <string name="servicio_adiestramiento">Adiestramiento</string>
+    <string name="servicio_veterinario">Veterinario</string>
+    <string name="servicio_dispo">Servicios disponibles</string>
+    <string name="adopta_mascota">Adopta una mascota</string>
+    <string name="adopta_mascota_hogar">Conoce animales que buscan hogar</string>
+    <string name="ir_comunidad">Ir a la comunidad</string>
+    <!-- servicios destacados -->
+        <!-- guarderia -->
+    <string name="guarderia">Guardería</string>
+    <string name="nombremascota">Para: %1$s</string>
+    <string name="tipos_guarderia">Tipos de guardería</string>
+    <string name="guarderia_diaria">Guardería diaria</string>
+    <string name="guarderia_nocturna">Guardería nocturna</string>
+    <string name="guarderia_premium">Guardería premiun</string>
+    <string name="duracion">Duración</string>
+    <string name="un_dia">1 día</string>
+    <string name="tres_dias">3 días</string>
+    <string name="una_semana">1 semana</string>
+    <string name="guarderiadiaria_nombre">%1$s • Guardería diaria</string>
+    <string name="total_coste_guarderia">Total: 0€</string>
+    <string name="confirmar_serv_guarderia">CONFIRMAR SERVICIO</string>
+
+        <!-- peluquería -->
+    <string name="peluqueria">Peluquería</string>
+    <string name="peluqueria_mascota">Para: 🐶</string>
+    <string name="tipo_peluqueria">Tipo de servicio</string>
+    <string name="pelu_corte_basico">Corte básico</string>
+    <string name="pelu_banio_secado">Baño + secado</string>
+    <string name="pelu_servicio_premium">Servicio premium</string>
+    <string name="pelu_total">Total: 0€</string>
+    <string name="confirmar_serv_pelu">CONFIRMAR SERVICIO</string>
+
+        <!-- veterinario -->
+    <string name="veterinario">Veterinario</string>
+    <string name="veterinario_mascota">Para:  🐶</string>
+    <string name="tipo_consulta_veterinario">Tipo de consulta</string>
+    <string name="consulta_general_veterinario">Consulta general</string>
+    <string name="vacunacion">Vacunación</string>
+    <string name="desparasitacion">Desparasitación</string>
+    <string name="revision_veterinario">Revisión completa</string>
+    <string name="total_veterinario">Total: 0€</string>
+    <string name="confirmar_veterinario">CONFIRMAR SERVICIO</string>
+
+        <!-- adiestramiento -->
+    <string name="adiestramiento">Adriestramiento</string>
+    <string name="adiestramiento_mascota">Para: 🐶</string>
+    <string name="tipo_adiestramiento">Tipo de adiestramiento</string>
+    <string name="tipo_basico">Básico</string>
+    <string name="tipo_conductual">Conductual</string>
+    <string name="tipo_avanzado">Avanzado</string>
+    <string name="sesiones">Sesiones</string>
+    <string name="una_sesion">1 sesión</string>
+    <string name="cinco_sesion">5 sesiones</string>
+    <string name="diez_sesion">10 sesiones</string>
+    <string name="total_adiestramiento">Total: 0€</string>
+    <string name="btn_confirma_adiestramiento">CONFIRMAR SERVICIO</string>
+
+        <!-- paseos -->
+    <string name="paseos">Paseos</string>
+    <string name="nombre_paseos">Para:  🐶</string>
+    <string name="tipo_paseos">Tipo de paseo</string>
+    <string name="tipo_paseos_individual">Paseo individual</string>
+    <string name="tipo_paseos_grupo">Paseo en grupo</string>
+    <string name="duracion_paseo">Duración</string>
+    <string name="duracion_paseo30min">30 minutos</string>
+    <string name="duracion_paseo60min">60 minutos</string>
+    <string name="frecuencia_paseo">Frecuencia</string>
+    <string name="frecuencia_paseo1dia">1 día</string>
+    <string name="frecuencia_paseo5dias">5 días</string>
+    <string name="frecuencia_paseo1sem">1 semana</string>
+    <string name="total_paseos">Total: 0€</string>
+    <string name="btn_confirma_paseos">CONFIRMAR SERVICIO</string>
+
+        <!-- antipulgas -->
+    <string name="antipulgas">Antipulgas</string>
+    <string name="antipulgas_mascota">Para:  🐶</string>
+    <string name="tipo_antipulgas">Tipo de tratamiento</string>
+    <string name="tipo_pipeta">Pipeta</string>
+    <string name="tipo_collar">Collar antipulgas</string>
+    <string name="tipo_pastilla">Pastilla oral</string>
+    <string name="duracion_antipulgas">Duración</string>
+    <string name="duracion_1mes">1 mes</string>
+    <string name="duracion_3meses">3 meses</string>
+    <string name="duracion_6meses">6 meses</string>
+    <string name="total_antipulgas">Total: 0€</string>
+    <string name="btn_confirma_antipulgas">CONFIRMAR SERVICIO</string>
+
+    <!-- reservas -->
+    <string name="fondo_reservas">Fondo de las reservas</string>
+    <string name="reservar_cita">Reservar Cita</string>
+    <string name="select_hora_cita">Seleccionar Hora</string>
+    <string name="hora_cita">Hora: -</string>
+    <string name="conf_cita">Confirmar Reserva</string>
+
+    <!-- perfil usuario -->
+    <string name="fondo_perfil_usuario">Fondo del perfil de usuario</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="editfotoperfil">Editar</string>
+    <string name="edit_nombre">Nombre</string>
+    <string name="edit_email">Correo electrónico</string>
+    <string name="edit_tel">Teléfono de contacto</string>
+    <string name="btnguardarcambios">Guardar cambios</string>
+    <string name="edit_perfilusu">Editar perfil</string>
+    <string name="edit_datos">Editar datos</string>
+    <string name="btn_guardar_usu">Guardar cambios</string>
+
+    <!-- soporte -->
+    <string name="txtsoporte">Centro de Soporte Fluffy Friends</string>
+    <string name="dudas">Resuelve tus dudas o contáctenos</string>
+    <string name="preguntas">Preguntas frecuentes</string>
+    <string name="contactar">Contactar con soporte</string>
+    <string name="emailsoporte">Enviar email a soporte</string>
+
+    <!-- menú inferior -->
+    <string name="inicio">Home Page</string>
+    <string name="perfil_usuario">Mi perfil</string>
+    <string name="log_out">Cerrar sesión</string>
+
+    <!-- detalle servicio-->
+    <string name="detalle_servicio">Detalle del servicio</string>
+    <string name="tipo_servicio">Tipo de servicio</string>
+    <string name="descripcion_servicio">Descripción del servicio</string>
+    <string name="precio_servicio">Precio: 0 €</string>
+    <string name="formato_fecha">Fecha: --/--/----</string>
+    <string name="estado_activo">Estado: ACTIVO</string>
+    <string name="btn_editar_servicio">Modificar servicio</string>
+    <string name="btn_cancelar_servicio">Cancelar servicio</string>
+
+    <!-- Faqs-->
+    <string name="faqs">Preguntas Frecuentes</string>
+    <string name="dudas_faqs">Resuelve tus dudas sobre FluffyFriends</string>
+
+    <!-- perfil usuario -->
+    <string name="perfil_edit_mascota">Editar</string>
+    <string name="servicios_contratados">Servicios contratados</string>
+    <string name="btn_contratar_serv_perfil">Contratar servicios</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

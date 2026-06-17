@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FluffyFriends"
+        tools:targetApi="31">
+
+        <!-- pantalla inicial (MainActivity) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- pantalla con Crear cuenta / Iniciar sesión -->
+        <activity
+            android:name=".OpcionesCuentaActivity"
+            android:exported="true" />
+
+        <!-- pantalla registro -->
+        <activity
+            android:name=".RegisterUserActivity"
+            android:exported="true" />
+
+        <!-- pantalla de login -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- pantalla homePage -->
+        <activity
+            android:name=".HomepageActivity"
+            android:exported="true" />
+
+        <!-- pantalla registrar mascotas -->
+        <activity
+            android:name=".RegistrarMascotaActivity"
+            android:exported="true" />
+
+        <!-- pantalla mis mascotas -->
+        <activity
+            android:name=".MisMascotasActivity"
+            android:exported="true" />
+
+        <!-- pantalla servicios  -->
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="true" />
+
+        <!-- pantalla perfil_mascota  -->
+        <activity
+            android:name=".PerfilMascotaActivity"
+            android:exported="true" />
+
+        <!-- pantalla guardería  -->
+        <activity
+            android:name=".GuarderiaActivity"
+            android:exported="true" />
+
+        <!-- pantalla peluquería  -->
+        <activity
+            android:name=".PeluqueriaActivity"
+            android:exported="true" />
+
+        <!-- pantalla veterinario  -->
+        <activity
+            android:name=".VeterinarioActivity"
+            android:exported="true" />
+
+        <!-- pantalla adiestramiento  -->
+        <activity
+            android:name=".AdiestramientoActivity"
+            android:exported="true" />
+
+        <!-- pantalla paseos  -->
+        <activity
+            android:name=".PaseosActivity"
+            android:exported="true" />
+
+        <!-- pantalla reservas  -->
+        <activity
+            android:name=".ReservasActivity"
+            android:exported="true" />
+
+        <!-- pantalla antipulgas  -->
+        <activity
+            android:name=".AntipulgasActivity"
+            android:exported="true" />
+
+        <!-- pantalla mi cuenta  -->
+        <activity
+            android:name=".EditUsuarioActivity"
+            android:exported="true" />
+
+        <!-- pantalla soporte  -->
+        <activity
+            android:name=".SupportActivity"
+            android:exported="true" />
+
+            <!-- pantalla FAQs -->
+            <activity
+                android:name=".FAQsActivity"
+                android:exported="true" />
+
+        <!-- pantalla detalles servicios -->
+        <activity
+            android:name=".DetalleServicioActivity"
+            android:exported="true" />
+
+        <!-- pantalla cerrar sesión  -->
+        <activity
+            android:name=".LogoutActivity"
+            android:exported="true" />
+
+
+    </application>
+
+</manifest>

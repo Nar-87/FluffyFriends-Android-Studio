@@ -1,0 +1,62 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTipoServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/servicio_peluqueria"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#E44F45"/>
+
+        <TextView
+            android:id="@+id/tvDescripcionServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/corte_banio"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvPrecioServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_guarderia_serv"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvFechaServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha_serv"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvEstadoServicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estado_activo_serv"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#388E3C"
+            android:layout_marginTop="6dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
