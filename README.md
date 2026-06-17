@@ -45,48 +45,48 @@ El objetivo principal del proyecto fue poner en práctica los conocimientos adqu
 
 ## Comenzar
 
-![Login](docs/screenshots/login.png)
+![Login](docs/login.png)
 
 ---
 
 ## Inicio de sesión
 
-![Login](docs/screenshots/sesion.png)
+![Login](docs/sesion.png)
 
 ---
 
 ## Pantalla principal
 
-![Homepage](docs/screenshots/homepage.png)
+![Homepage](docs/homepage.png)
 
 ---
 
 ## Registro de mascotas
 
-![Registro Mascota](docs/screenshots/registro_mascota.png)
+![Registro Mascota](docs/registro_mascota.png)
 
 ---
 
 ## Mis mascotas
 
-![Mis Mascotas](docs/screenshots/mis_mascotas.png)
+![Mis Mascotas](docs/mis_mascotas.png)
 
 ---
 
 ## Perfil de mascota
 
-![Perfil Mascota](docs/screenshots/perfil_mascota.png)
+![Perfil Mascota](docs/perfil_mascota.png)
 
 ---
 
 ## Servicios
 
-![Servicios](docs/screenshots/servicios.png)
+![Servicios](docs/servicios.png)
 ---
 
 ## Perfil de usuario
 
-![Perfil Usuario](docs/screenshots/mi_cuenta.png)
+![Perfil Usuario](docs/mi_cuenta.png)
 
 ---
 
